@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>United 26 | Panorama do Futebol Internacional</title>
+
+    <meta name="description" content="Conteúdo informativo e educativo sobre futebol internacional, formatos de torneios, organização de eventos e curiosidades do esporte.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script>
+    window.FYCLOAK_CAMPAIGN_ID = 2462;  // ID da sua campanha
+    window.FYCLOAK_USER_ID = 257;      // Seu user ID
+</script>
+<script src="https://cdn.fycloak.com/scripts/advanced-fingerprint.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #0d1b2a;
+            --secondary-color: #1b263b;
+            --accent-color: #e63946;
+            --text-color: #333;
+            --light-bg: #f8f9fa;
+            --white: #ffffff;
+            --border-radius: 8px;
+            --container-width: 1200px;
+            --shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        img { width: 100%; display: block; object-fit: cover; }
+
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section-padding { padding: 60px 0; }
+
+        .section-header {
+            margin-bottom: 40px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+        }
+
+        .section-header h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            color: var(--primary-color);
+            text-transform: uppercase;
+        }
+
+        .top-bar {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 0;
+            font-size: 0.8rem;
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav {
+            background: var(--white);
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--primary-color);
+        }
+
+        .logo span { color: var(--accent-color); }
+
+        .menu {
+            display: flex;
+            gap: 25px;
+        }
+
+        .menu a {
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+        }
+
+        .menu a:hover { color: var(--accent-color); }
+
+        .hero {
+            height: 500px;
+            background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)),
+            url('https://images.unsplash.com/photo-1522778119026-d647f0565c6a?q=80&w=2070&auto=format&fit=crop');
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 600px;
+        }
+
+        .badge {
+            background: var(--accent-color);
+            padding: 6px 12px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3rem;
+            margin: 15px 0;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1rem;
+            opacity: 0.95;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .news-card {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .card-body { padding: 20px; }
+
+        .meta {
+            font-size: 0.8rem;
+            color: #888;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        footer {
+            background: var(--primary-color);
+            color: #bbb;
+            padding: 60px 0 20px;
+            font-size: 0.9rem;
+        }
+
+        .legal-bar {
+            background: #000;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="top-bar">
+    <div class="container">
+        <span><i class="fas fa-clock"></i> Atualizado regularmente</span>
+        <span>Blog Informativo sobre Futebol Internacional</span>
+    </div>
+</div>
+
+<nav>
+    <div class="container nav-container">
+        <div class="logo">UNITED<span>26</span></div>
+        <ul class="menu">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Artigos</a></li>
+            <li><a href="#">Guias</a></li>
+            <li><a href="#">Análises</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <span class="badge">Conteúdo Informativo</span>
+            <h1>Como funcionam os grandes eventos do futebol internacional</h1>
+            <p>
+                Um panorama educativo sobre formatos de competições,
+                organização, sedes e curiosidades dos principais torneios
+                globais de futebol.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container">
+        <div class="section-header">
+            <h2>Artigos Recentes</h2>
+        </div>
+
+        <div class="news-grid">
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="meta">
+                        <span>Organização</span>
+                        <span>Leitura educativa</span>
+                    </div>
+                    <h3>Como são escolhidas as sedes de torneios internacionais</h3>
+                    <p>
+                        Entenda os critérios técnicos, logísticos e estruturais
+                        utilizados para definir cidades e estádios em grandes eventos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="meta">
+                        <span>Formato</span>
+                        <span>Análise geral</span>
+                    </div>
+                    <h3>Diferenças entre os formatos de competições globais</h3>
+                    <p>
+                        Uma explicação clara sobre grupos, fases eliminatórias
+                        e modelos adotados em diferentes torneios.
+                    </p>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="meta">
+                        <span>Curiosidades</span>
+                        <span>História</span>
+                    </div>
+                    <h3>Como o futebol se tornou um evento global</h3>
+                    <p>
+                        Uma visão histórica sobre a expansão do futebol
+                        e sua popularização em diferentes continentes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>
+            O United 26 é um blog informativo independente, com finalidade
+            exclusivamente educativa e editorial. Não possui vínculo,
+            afiliação ou representação oficial de federações, organizadores
+            ou entidades esportivas.
+        </p>
+    </div>
+</footer>
+
+<div class="legal-bar">
+    © 2026 United 26 · Conteúdo informativo e educativo
+</div>
+
+</body>
+</html>
