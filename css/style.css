@@ -1712,7 +1712,7 @@ body.loading-active {
 }
 
 .confirmation-balance {
-    background: linear-gradient(135deg, #000000, #1a1a1a);
+    background: linear-gradient(135deg, #4d4d4d, #000000);
     color: white;
     border: none;
 }
@@ -2813,3 +2813,4 @@ input.nome-completo,
     width: 96px;
 
 }
+
