@@ -1015,11 +1015,11 @@ button:focus {
 
 /* Estilo do botão ativo (selecionado) */
 .btn-valor.btn-active {
-    background-color: #fff6f7;
+    background-color: #ff4c0012;
     /* Fundo rosa bem claro */
-    border-color: #f84d63;
+    border-color: #ff4c00;
     /* Cor da borda rosa/vermelho */
-    color: #f84d63;
+    color: #ff4c00;
     /* Cor do texto rosa/vermelho */
 }
 
@@ -2813,4 +2813,5 @@ input.nome-completo,
     width: 96px;
 
 }
+
 
