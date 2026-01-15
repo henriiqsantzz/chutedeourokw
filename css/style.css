@@ -2707,7 +2707,7 @@ input.nome-completo,
 .new-progress-bar {
     height: 100%;
     width: 0%;
-    background-color: #fe2c55;
+    background-color: #ff4c00;
     border-radius: 3px;
     transition: width 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     position: relative;
@@ -2813,5 +2813,6 @@ input.nome-completo,
     width: 96px;
 
 }
+
 
 
